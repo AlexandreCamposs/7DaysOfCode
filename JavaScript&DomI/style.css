@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    background-color:#17162E;
+  }
+  .header {
+    text-align: center;
+    color: white;
+    padding: 20px;
+    font-family: Arial;
+  }
+  .pesq{
+    border: 15px solid darkgray;
+    text-align: center;
+    background-color: darkgray;
+    width: 634px;
+    padding: 15px
+  }
+  section .filmes {
+    width: 1224px;
+    height: 201px;
+    margin: auto;
+  }
+.filmes{
+    color: white;
+    align-items: center;
+    margin-bottom: 50px;
+    
+}
+.logo img {
+    border-radius: 50%;
+    padding: 15px;
+}
+  .areaFilmes{
+    display: flex;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin: auto;
+    justify-content:   space-around;
+    align-items: center;
+    background-color: #1D1C3B;
+    width: 1224px;
+  }
+.titulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ .desc{
+    width: 592px;
+    height: 128px;
+    padding: 10px 0;
+    margin: auto;
+}

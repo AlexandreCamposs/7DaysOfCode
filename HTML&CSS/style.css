@@ -1,0 +1,310 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header .navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  width: 1280px;
+  height: 80px;
+  padding: 0 32px;
+  /* background-color: red; */
+}
+header .log {
+  width: 113px;
+  height: 24px;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  line-height: 24px;
+}
+header p {
+  margin-left: 10px;
+}
+header img {
+  width: 27px;
+  height: 26.99px;
+}
+.menu li,
+.menu a {
+  color: #667085;
+  display: flex;
+  list-style: none;
+  font-size: 16px;
+  font-weight: bold;
+  font-style: normal;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+}
+.menu ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 32px;
+  width: 362px;
+  height: 32px;
+}
+.hbutton {
+  display: flex;
+  margin-right: 10px;
+  align-items: center;
+}
+.hbutton a {
+  color: #667085;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+  margin-right: 15px;
+}
+.cbutton {
+  background-color: #8e2424;
+  border: 1px solid #8e2424;
+  border-radius: 8px;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+  width: 112px;
+  height: 44px;
+  cursor: pointer;
+  color: white;
+}
+.area-sobre {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 0;
+}
+section .sobre {
+  color: #8e2424;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+}
+.area-sobre h1 {
+  font-size: 48px;
+  line-height: 60px;
+}
+.des {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 400;
+  width: 791px;
+  height: 60px;
+}
+.metricas-container {
+  display: flex;
+  padding: 0 96px;
+  gap: 64px;
+}
+.metricas-container h3 {
+  color: #8e2424;
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 72px;
+}
+.desc1 {
+  margin: 15px 0;
+  font-weight: bold;
+  font-size: 16px;
+}
+.desc2 {
+  color: #667085;
+}
+.talentos {
+  text-align: center;
+  padding: 35px 0px;
+}
+.talentos .p1 {
+  background-color: #f9f4f4;
+  display: inline;
+  color: #8e2424;
+  font-size: 20px;
+  font-weight: bolder;
+  line-height: 40px;
+  padding: 0px 10px;
+  border-radius: 5px;
+}
+.talentos h3 {
+  font-size: 36px;
+  padding: 20px 0;
+}
+.talentos .p2 {
+  color: #667085;
+  font: 20px;
+  font-weight: 400;
+  padding: 0 0 20px 0;
+}
+.vagas-abertas {
+  width: 1280px;
+  height: 750px;
+  margin: auto;
+  /* background-color:#667085 */
+}
+.vagas-abertas .container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 1280px;
+  height: 358px;
+  /* background-color: red; */
+}
+.content {
+  /* background-color: antiquewhite; */
+  width: 768px;
+  height: 358px;
+  margin: auto;
+  margin-bottom: 20px;
+}
+.content h3 {
+  font-size: 20px;
+  line-height: 30px;
+  padding: 15px;
+}
+.content .items {
+  border: 1px solid #9ea7bb;
+  padding: 15px;
+  border-radius: 5px;
+}
+.jobpost .title {
+  font-size: 20px;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+.details {
+  display: flex;
+}
+.jobpost {
+  display: flex;
+  flex-direction: column;
+}
+.detailss {
+  color: #667085;
+  margin-left: 30px;
+}
+.depoimentos {
+  /* background-color: red; */
+  margin: auto;
+  width: 1440px;
+  height: 359px;
+}
+.depoimentos .container {
+  align-items: center;
+  background-color:rgb(241, 233, 222);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  margin: auto;
+  width: 1216px;
+  height: 359px;
+}
+.heading p {
+  text-align: center;
+  color: #8e2424;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 15px 0;
+}
+.heading h3 {
+  color: #101828;
+  font-size: 25px;
+  margin-top: 20px;
+  text-align: center;
+  width: 700px;
+}
+.attribution {
+  margin-top: 30px;
+  text-align: center;
+  line-height: 24px;
+}
+.sup .text {
+  font-size: 20px;
+  font-weight: 600;
+}
+.sup .sup-text {
+  color: #667085;
+  font-size: 20px;
+}
+.form .container {
+  margin: auto;
+  /* background-color: burlywood; */
+  width: 1440px;
+  height: 300px;
+}
+.head-form {
+  padding: 50px;
+  text-align: center;
+}
+.head-form h3 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+.head-form p {
+  font-size: 20px;
+  color: #667085;
+}
+.email {
+  text-align: center;
+}
+#email {
+  /* border: #D0D5DD; */
+  border-radius: 5px;
+  padding: 0 0 0 10px;
+  width: 360px;
+  height: 48px;
+}
+#cadastrar {
+    color: white;
+    background-color: #8e2424;
+  border: #d0d5dd;
+  width: 100px;
+  height: 48px;
+  border-radius: 5px;
+}
+footer {
+    text-align: center;
+    /* width: 400; */
+    height: 48px;
+}
+
+/* .vagas-abertas {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0 32px;
+    gap: 64px;
+    height: 940px;
+    width: 1280px;
+    left: 80px;
+    top: 762px;
+    border-radius: 0px;
+
+}
+.vagas-abertas .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 32px;
+    width: 768px;
+    height: 358px;
+    
+}
+.vagas-abertas .items {
+   display: flex;
+    width: 768px;
+    height: 136px;
+    background-color: red;
+    
+}
+.jobpost {
+    border: 2px solid #667085;
+    padding: 10px 40px 0 0 ;
+} */
